@@ -1,0 +1,45 @@
+:root {
+  font-family: 'Open Sans';
+  background: GhostWhite;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.chart {
+  display: inline-block;
+  margin: 25px 0;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.bar {
+  fill: steelblue;
+}
+.bar:hover {
+  fill: #8db3d3;
+}
+
+.axis text {
+  font: 10px "Open Sans";
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.d3-tip {
+  padding: 7px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
