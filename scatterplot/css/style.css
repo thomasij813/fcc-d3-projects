@@ -1,0 +1,100 @@
+:root {
+  font-family: 'Open Sans';
+  background: GhostWhite;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.chart {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.axis text {
+  font: 10px "Open Sans";
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  fill: #294d6b;
+}
+.dot:hover {
+  fill: steelblue;
+}
+
+.doping {
+  fill: red;
+}
+
+.d3-tip {
+  padding: 7px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  max-width: 250px;
+}
+.d3-tip p {
+  margin: 3px;
+}
+
+.label {
+  font-size: 11px;
+}
+
+.legend-text {
+  font-size: 12px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+.title * {
+  margin: 0;
+}

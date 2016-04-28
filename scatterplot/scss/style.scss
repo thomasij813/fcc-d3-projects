@@ -1,0 +1,70 @@
+:root {
+  font-family: 'Open Sans';
+  background: GhostWhite 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.chart {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.axis text {
+  font: 10px 'Open Sans'
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  fill: darken(steelblue, 20%);
+  &:hover {
+    fill: steelblue;
+  }
+}
+
+.doping {
+  fill: red;
+}
+
+.d3-tip {
+  padding: 7px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  max-width: 250px;
+  p {
+    margin: 3px
+  }
+}
+
+.label {
+  font-size: 11px;
+}
+
+ .legend-text {
+  font-size: 12px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  * {
+    margin: 0;
+  }  
+}
